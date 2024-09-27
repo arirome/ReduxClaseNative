@@ -31,10 +31,7 @@ import {
         return {
 
           data: payload,
-          //El operador de propagación (...) se utiliza para crear una nueva copia del array existente
-          //state.data es el array actual que contiene los datos
-          //...state.data obtiene todos los elementos del array y los "expande" en un nuevo array
-          //data:[...state.data, payload],
+          
           error: false,
           
           

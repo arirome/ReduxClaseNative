@@ -6,6 +6,7 @@ import { useDispatch } from "react-redux";
 
 //traemos  las acciones
 import { fetchData } from "../components/redux/actions/registro.actions";
+
 import { useState } from "react";
 
 //notificaciones
@@ -25,7 +26,9 @@ export default function Registro() {
         position: "bottom",
       });
     } else {
+
       dispatch(fetchData(email, password));
+      
       return Toast.show({
         type: "success",
         text1: "estas registrado",
