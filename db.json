@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": "815c",
+      "email": "prueba",
+      "password": "prueba"
+    },
+    {
+      "id": "5171",
+      "email": "a",
+      "password": "a"
+    },
+    {
+      "id": "eb80",
+      "email": "a1",
+      "password": "a1"
+    },
+    {
+      "id": "e507",
+      "email": "a12",
+      "password": "a12"
+    },
+    {
+      "id": "04c0",
+      "email": "a",
+      "password": "a"
+    },
+    {
+      "id": "5ed9",
+      "email": "a",
+      "password": "a"
+    }
+  ]
+}
